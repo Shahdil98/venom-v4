@@ -8,7 +8,7 @@ import string
 import datetime
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
-from config import BOT_TOKEN, ADMIN_IDS, OWNER_USERNAME
+from config import , ADMIN_IDS, OWNER_USERNAME
 
 
 USER_FILE = "users.json"
@@ -89,7 +89,7 @@ async def genkey(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         else:
             response = "Usage: /genkey <amount> <hours/days>"
     else:
-        response = "ONLY OWNER CAN USE💀OWNER @{OWNER_USERNAME}..."
+        response = "ONLY OWNER CAN USE💀OWNER @{@Broken_heart_41}..."
 
     await update.message.reply_text(response)
 
