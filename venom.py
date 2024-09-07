@@ -112,7 +112,7 @@ async def redeem(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
             save_keys()
             response = f"✅Key redeemed successfully! Access granted until: {users[user_id]} OWNER- @{OWNER_USERNAME}..."
         else:
-            response = "Invalid or expired key buy from @{OWNER_USERNAME}."
+            response = "Invalid or expired key buy from @{@Broken_heart_41}."
     else:
         response = "Usage: /redeem <key>"
 
